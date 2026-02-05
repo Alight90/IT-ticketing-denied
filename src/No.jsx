@@ -31,14 +31,7 @@ return( <div>
   .map(([key, value]) => (
     <div
       key={key}
-      style={{
-        border: "1px solid #ccc",
-        padding: "12px",
-        marginBottom: "10px",
-        borderRadius: "6px",
-        background: "#fafafa"
-      }}
-    >
+     className="requestBox"    >
       <p
         style={{
           margin: 0,
