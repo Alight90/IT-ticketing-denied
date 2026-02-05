@@ -9,3 +9,29 @@
 .disableButton{
     background-color: grey;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111;
+    color: #eee;
+  }
+
+  .submitButton {
+    background: #333;
+    color: #fff;
+    border: 1px solid #555;
+  }
+
+  .disableButton {
+    background: #222;
+    color: #777;
+    border: 1px solid #444;
+  }
+
+  .Request_Description,
+  input[type="text"] {
+    background: #222;
+    color: #eee;
+    border: 1px solid #555;
+  }
+}
