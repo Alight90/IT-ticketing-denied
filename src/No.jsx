@@ -54,7 +54,7 @@ return( <div>
   <h3>Reasoning: {quote}</h3>
 )}
 
-        <NoForm noFormSubmit= {noFormSubmit} fetchNo={fetchNo}/>
+        <NoForm noFormSubmit= {noFormSubmit}/>
     </div>
 )
 
