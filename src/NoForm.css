@@ -1,0 +1,11 @@
+.Request_Description {
+  width: 300px;
+  height: 100px;
+}
+.submitButton{
+    background-color: blue;
+    color: white;
+}
+.disableButton{
+    background-color: grey;
+}
